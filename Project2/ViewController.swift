@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     var countries = [String]()
     var score = 0
     var correctAnswer = 0
+    var question = 1
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,6 +60,14 @@ class ViewController: UIViewController {
             Oops... That's the flag of \(countries[sender.tag].uppercased())
             Your score is \(score)
             """
+        }
+        question += 1
+        if (question == 10) {
+            title = "Game over"
+            msg = "Your total score \(score)"
+            action_title = "Play again"
+            question = 1
+            score = 0
         }
         
         let ac = UIAlertController(title: title, message: msg, preferredStyle: .alert)
