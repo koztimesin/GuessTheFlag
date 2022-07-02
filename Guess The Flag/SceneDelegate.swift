@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  Project2
+//  Guess The Flag
 //
 //  Created by Karthus Saffron on 7/1/22.
 //  Copyright © 2022 koztimesin. All rights reserved.

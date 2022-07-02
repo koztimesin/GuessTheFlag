@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		53A7F48C286EF85300628523 /* Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53A7F48C286EF85300628523 /* Guess The Flag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess The Flag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53A7F48F286EF85300628523 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53A7F491286EF85300628523 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		53A7F493286EF85300628523 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		53A7F483286EF85300628523 = {
 			isa = PBXGroup;
 			children = (
-				53A7F48E286EF85300628523 /* Project2 */,
+				53A7F48E286EF85300628523 /* Guess The Flag */,
 				53A7F48D286EF85300628523 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		53A7F48D286EF85300628523 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53A7F48C286EF85300628523 /* Project2.app */,
+				53A7F48C286EF85300628523 /* Guess The Flag.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		53A7F48E286EF85300628523 /* Project2 */ = {
+		53A7F48E286EF85300628523 /* Guess The Flag */ = {
 			isa = PBXGroup;
 			children = (
 				53A7F48F286EF85300628523 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				53A7F49A286EF85400628523 /* LaunchScreen.storyboard */,
 				53A7F49D286EF85400628523 /* Info.plist */,
 			);
-			path = Project2;
+			path = "Guess The Flag";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		53A7F48B286EF85300628523 /* Project2 */ = {
+		53A7F48B286EF85300628523 /* Guess The Flag */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53A7F4A0286EF85400628523 /* Build configuration list for PBXNativeTarget "Project2" */;
+			buildConfigurationList = 53A7F4A0286EF85400628523 /* Build configuration list for PBXNativeTarget "Guess The Flag" */;
 			buildPhases = (
 				53A7F488286EF85300628523 /* Sources */,
 				53A7F489286EF85300628523 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Project2;
+			name = "Guess The Flag";
 			productName = Project2;
-			productReference = 53A7F48C286EF85300628523 /* Project2.app */;
+			productReference = 53A7F48C286EF85300628523 /* Guess The Flag.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 53A7F487286EF85300628523 /* Build configuration list for PBXProject "Project2" */;
+			buildConfigurationList = 53A7F487286EF85300628523 /* Build configuration list for PBXProject "Guess The Flag" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				53A7F48B286EF85300628523 /* Project2 */,
+				53A7F48B286EF85300628523 /* Guess The Flag */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Project2/Info.plist;
+				INFOPLIST_FILE = "Guess The Flag/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = koztimesin.Project2;
+				PRODUCT_BUNDLE_IDENTIFIER = "koztimesin.Guess-The-Flag";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,12 +302,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Project2/Info.plist;
+				INFOPLIST_FILE = "Guess The Flag/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = koztimesin.Project2;
+				PRODUCT_BUNDLE_IDENTIFIER = "koztimesin.Guess-The-Flag";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		53A7F487286EF85300628523 /* Build configuration list for PBXProject "Project2" */ = {
+		53A7F487286EF85300628523 /* Build configuration list for PBXProject "Guess The Flag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53A7F49E286EF85400628523 /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53A7F4A0286EF85400628523 /* Build configuration list for PBXNativeTarget "Project2" */ = {
+		53A7F4A0286EF85400628523 /* Build configuration list for PBXNativeTarget "Guess The Flag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53A7F4A1286EF85400628523 /* Debug */,
