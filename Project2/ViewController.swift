@@ -46,6 +46,7 @@ class ViewController: UIViewController {
     @IBAction func buttonTapped(_ sender: UIButton) {
         var title: String
         var msg: String
+        var action_title = "Continue"
         
         if sender.tag == correctAnswer {
             title = "Correct"
@@ -61,8 +62,9 @@ class ViewController: UIViewController {
         }
         
         let ac = UIAlertController(title: title, message: msg, preferredStyle: .alert)
+        let action = UIAlertAction(title: action_title, style: .default, handler: askQuestion)
         
-        ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: askQuestion))
+        ac.addAction(action)
         
         present(ac, animated: true)
     }
