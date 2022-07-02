@@ -42,6 +42,8 @@ class ViewController: UIViewController {
         button3.setImage(UIImage(named: countries[2]), for: .normal)
         
         title = countries[correctAnswer].uppercased()
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Score: \(score)", style: .done, target: nil, action: nil)
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Question: \(question) of 10", style: .done, target: nil, action: nil)
     }
 
     @IBAction func buttonTapped(_ sender: UIButton) {
@@ -62,7 +64,7 @@ class ViewController: UIViewController {
             """
         }
         question += 1
-        if (question == 10) {
+        if (question == 11) {
             title = "Game over"
             msg = "Your total score \(score)"
             action_title = "Play again"
